@@ -1,0 +1,31 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro N
+
+        
+        enquanto (verdadeiro)
+        {
+            escreva("Escreva um valor para N (maior que 0): ")
+            leia(N)
+
+           
+            se (N > 0)
+            {
+                
+                pare
+            }
+            senao
+            {
+                escreva("O valor de N deve ser maior que zero.\n")
+            }
+        }
+
+        
+        para (inteiro i = 1; i <= N; i++)
+        {
+            escreva(i, "\n")
+        }
+    }
+}

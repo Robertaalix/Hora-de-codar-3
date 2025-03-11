@@ -1,0 +1,29 @@
+programa
+{
+    funcao inicio()
+    {
+        
+        inteiro a, b, soma = 0, contador = 0
+        real media
+
+        
+        escreva("Escreva o primeiro número (menor): ")
+        leia(a)
+
+        escreva("Escreva o segundo número (maior): ")
+        leia(b)
+
+        
+        para (inteiro i = a; i <= b; i++)
+        {
+            soma = soma + i
+            contador++
+        }
+
+         media = soma / contador * 1.0
+
+ 
+        escreva(" sua média aritmética é: ", media)
+    }
+}
+
